@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "d52b5143-6125-428d-afbb-c479fa4b2eaf",
+		"name": "micro_authorizedSignatories",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10392878"
+	},
+	"item": [
+		{
+			"name": "localhost:8088/authorizedSignatories/findAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8088/authorizedSignatories/findAll",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"authorizedSignatories",
+						"findAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8088/authorizedSignatories/findById/546546",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8088/authorizedSignatories/findById/546546",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"authorizedSignatories",
+						"findById",
+						"546546"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8088/authorizedSignatories/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idAccount\":\"45454154\",\r\n    \"name\":\"Aaron\",\r\n    \"lastName\":\"Camargo\",\r\n    \"documentNumber\":\"4582365\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8088/authorizedSignatories/create",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"authorizedSignatories",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8088/authorizedSignatories/update/651601a5dbf6f33475087750",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idAccount\":\"45454154\",\r\n    \"name\":\"Juan\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8088/authorizedSignatories/update/651601a5dbf6f33475087750",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"authorizedSignatories",
+						"update",
+						"651601a5dbf6f33475087750"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8088/authorizedSignatories/delete/651601a5dbf6f33475087750",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8088/authorizedSignatories/delete/651601a5dbf6f33475087750",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"authorizedSignatories",
+						"delete",
+						"651601a5dbf6f33475087750"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
